@@ -35,6 +35,11 @@
 
 #define STACK_ALIGNMENT 32
 
+// Define default bit depth 8, but some template source files need to be redefined and compile twice, see `tmpl_16` folder
+#ifndef BITDEPTH
+#define BITDEPTH 8
+#endif
+
 // Fix for include issue of `itx_1d.c`, because they use `#include "itx_1d.c"` to treat it as header files
 #include "common/bitdepth.h"
 #include "common/intops.h"

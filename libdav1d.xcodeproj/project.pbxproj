@@ -97,6 +97,18 @@
 		328B1687234B97FA00AA4441 /* libdav1d.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324E7C0B230D4831007D24F8 /* libdav1d.framework */; };
 		328B1688234B97FA00AA4441 /* libdav1d.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 324E7C0B230D4831007D24F8 /* libdav1d.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		32B5C42F230D524000395181 /* libdav1d.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B5C42D230D524000395181 /* libdav1d.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F17677234BD1F000F74DE4 /* cdef_apply_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F1766B234BD1F000F74DE4 /* cdef_apply_tmpl_16.c */; };
+		32F17678234BD1F000F74DE4 /* loopfilter_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F1766C234BD1F000F74DE4 /* loopfilter_tmpl_16.c */; };
+		32F17679234BD1F000F74DE4 /* ipred_prepare_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F1766D234BD1F000F74DE4 /* ipred_prepare_tmpl_16.c */; };
+		32F1767A234BD1F000F74DE4 /* ipred_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F1766E234BD1F000F74DE4 /* ipred_tmpl_16.c */; };
+		32F1767B234BD1F000F74DE4 /* cdef_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F1766F234BD1F000F74DE4 /* cdef_tmpl_16.c */; };
+		32F1767C234BD1F000F74DE4 /* looprestoration_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17670234BD1F000F74DE4 /* looprestoration_tmpl_16.c */; };
+		32F1767D234BD1F000F74DE4 /* lr_apply_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17671234BD1F000F74DE4 /* lr_apply_tmpl_16.c */; };
+		32F1767E234BD1F000F74DE4 /* itx_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17672234BD1F000F74DE4 /* itx_tmpl_16.c */; };
+		32F1767F234BD1F000F74DE4 /* recon_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17673234BD1F000F74DE4 /* recon_tmpl_16.c */; };
+		32F17680234BD1F000F74DE4 /* lf_apply_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17674234BD1F000F74DE4 /* lf_apply_tmpl_16.c */; };
+		32F17681234BD1F000F74DE4 /* film_grain_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17675234BD1F000F74DE4 /* film_grain_tmpl_16.c */; };
+		32F17682234BD1F000F74DE4 /* mc_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 32F17676234BD1F000F74DE4 /* mc_tmpl_16.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,6 +236,18 @@
 		328B1681234B97E100AA4441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32B5C42C230D524000395181 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32B5C42D230D524000395181 /* libdav1d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdav1d.h; sourceTree = "<group>"; };
+		32F1766B234BD1F000F74DE4 /* cdef_apply_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdef_apply_tmpl_16.c; sourceTree = "<group>"; };
+		32F1766C234BD1F000F74DE4 /* loopfilter_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loopfilter_tmpl_16.c; sourceTree = "<group>"; };
+		32F1766D234BD1F000F74DE4 /* ipred_prepare_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ipred_prepare_tmpl_16.c; sourceTree = "<group>"; };
+		32F1766E234BD1F000F74DE4 /* ipred_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ipred_tmpl_16.c; sourceTree = "<group>"; };
+		32F1766F234BD1F000F74DE4 /* cdef_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdef_tmpl_16.c; sourceTree = "<group>"; };
+		32F17670234BD1F000F74DE4 /* looprestoration_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = looprestoration_tmpl_16.c; sourceTree = "<group>"; };
+		32F17671234BD1F000F74DE4 /* lr_apply_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lr_apply_tmpl_16.c; sourceTree = "<group>"; };
+		32F17672234BD1F000F74DE4 /* itx_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = itx_tmpl_16.c; sourceTree = "<group>"; };
+		32F17673234BD1F000F74DE4 /* recon_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = recon_tmpl_16.c; sourceTree = "<group>"; };
+		32F17674234BD1F000F74DE4 /* lf_apply_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lf_apply_tmpl_16.c; sourceTree = "<group>"; };
+		32F17675234BD1F000F74DE4 /* film_grain_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = film_grain_tmpl_16.c; sourceTree = "<group>"; };
+		32F17676234BD1F000F74DE4 /* mc_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mc_tmpl_16.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -370,6 +394,7 @@
 		3218A004234B906300F7B8A3 /* generate */ = {
 			isa = PBXGroup;
 			children = (
+				32F1766A234BD1F000F74DE4 /* tmpl_16 */,
 				3218A006234B906300F7B8A3 /* config.h */,
 				328B1679234B932300AA4441 /* vcs_version.h */,
 				3218A009234B914200F7B8A3 /* version.h */,
@@ -420,6 +445,25 @@
 				32B5C42D230D524000395181 /* libdav1d.h */,
 			);
 			path = Xcode;
+			sourceTree = "<group>";
+		};
+		32F1766A234BD1F000F74DE4 /* tmpl_16 */ = {
+			isa = PBXGroup;
+			children = (
+				32F1766B234BD1F000F74DE4 /* cdef_apply_tmpl_16.c */,
+				32F1766C234BD1F000F74DE4 /* loopfilter_tmpl_16.c */,
+				32F1766D234BD1F000F74DE4 /* ipred_prepare_tmpl_16.c */,
+				32F1766E234BD1F000F74DE4 /* ipred_tmpl_16.c */,
+				32F1766F234BD1F000F74DE4 /* cdef_tmpl_16.c */,
+				32F17670234BD1F000F74DE4 /* looprestoration_tmpl_16.c */,
+				32F17671234BD1F000F74DE4 /* lr_apply_tmpl_16.c */,
+				32F17672234BD1F000F74DE4 /* itx_tmpl_16.c */,
+				32F17673234BD1F000F74DE4 /* recon_tmpl_16.c */,
+				32F17674234BD1F000F74DE4 /* lf_apply_tmpl_16.c */,
+				32F17675234BD1F000F74DE4 /* film_grain_tmpl_16.c */,
+				32F17676234BD1F000F74DE4 /* mc_tmpl_16.c */,
+			);
+			path = tmpl_16;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,39 +619,51 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32F17680234BD1F000F74DE4 /* lf_apply_tmpl_16.c in Sources */,
+				32F17681234BD1F000F74DE4 /* film_grain_tmpl_16.c in Sources */,
 				32189F8C234B8F2000F7B8A3 /* log.c in Sources */,
 				32189FA3234B8F2000F7B8A3 /* loopfilter_tmpl.c in Sources */,
 				32189F91234B8F2000F7B8A3 /* tables.c in Sources */,
+				32F1767B234BD1F000F74DE4 /* cdef_tmpl_16.c in Sources */,
 				32189FF8234B8F2000F7B8A3 /* thread_task.c in Sources */,
 				32189FD9234B8F2000F7B8A3 /* cdef_apply_tmpl.c in Sources */,
 				32189FBA234B8F2000F7B8A3 /* itx_1d.c in Sources */,
+				32F1767F234BD1F000F74DE4 /* recon_tmpl_16.c in Sources */,
 				32189FA9234B8F2000F7B8A3 /* cdf.c in Sources */,
+				32F17678234BD1F000F74DE4 /* loopfilter_tmpl_16.c in Sources */,
 				32189F90234B8F2000F7B8A3 /* recon_tmpl.c in Sources */,
 				32189FAF234B8F2000F7B8A3 /* msac.c in Sources */,
 				32189F9B234B8F2000F7B8A3 /* lf_apply_tmpl.c in Sources */,
 				32189FF7234B8F2000F7B8A3 /* getbits.c in Sources */,
+				32F1767A234BD1F000F74DE4 /* ipred_tmpl_16.c in Sources */,
 				3218A000234B8F2000F7B8A3 /* mc_tmpl.c in Sources */,
 				32189FDC234B8F2000F7B8A3 /* ipred_tmpl.c in Sources */,
 				32189F95234B8F2000F7B8A3 /* lib.c in Sources */,
 				32189FF4234B8F2000F7B8A3 /* data.c in Sources */,
 				32189FDD234B8F2000F7B8A3 /* ref_mvs.c in Sources */,
 				32189FB9234B8F2000F7B8A3 /* picture.c in Sources */,
+				32F17682234BD1F000F74DE4 /* mc_tmpl_16.c in Sources */,
 				32189FB2234B8F2000F7B8A3 /* ipred_prepare_tmpl.c in Sources */,
+				32F1767E234BD1F000F74DE4 /* itx_tmpl_16.c in Sources */,
 				32189FA0234B8F2000F7B8A3 /* ref.c in Sources */,
+				32F17679234BD1F000F74DE4 /* ipred_prepare_tmpl_16.c in Sources */,
 				32189FDA234B8F2000F7B8A3 /* qm.c in Sources */,
 				32189FD5234B8F2000F7B8A3 /* looprestoration_tmpl.c in Sources */,
 				32189FB0234B8F2000F7B8A3 /* intra_edge.c in Sources */,
 				32189FB1234B8F2000F7B8A3 /* lr_apply_tmpl.c in Sources */,
 				32189FB5234B8F2000F7B8A3 /* obu.c in Sources */,
+				32F17677234BD1F000F74DE4 /* cdef_apply_tmpl_16.c in Sources */,
 				32189FBC234B8F2000F7B8A3 /* itx_tmpl.c in Sources */,
 				32189FD4234B8F2000F7B8A3 /* wedge.c in Sources */,
 				32189F8B234B8F2000F7B8A3 /* cdef_tmpl.c in Sources */,
+				32F1767C234BD1F000F74DE4 /* looprestoration_tmpl_16.c in Sources */,
 				32189FDB234B8F2000F7B8A3 /* film_grain_tmpl.c in Sources */,
 				32189FAA234B8F2000F7B8A3 /* dequant_tables.c in Sources */,
 				32189FAD234B8F2000F7B8A3 /* decode.c in Sources */,
 				32189FAC234B8F2000F7B8A3 /* scan.c in Sources */,
 				32189FB4234B8F2000F7B8A3 /* warpmv.c in Sources */,
 				32189FAE234B8F2000F7B8A3 /* lf_mask.c in Sources */,
+				32F1767D234BD1F000F74DE4 /* lr_apply_tmpl_16.c in Sources */,
 				32189F99234B8F2000F7B8A3 /* cpu.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -675,7 +731,6 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
-					"BITDEPTH=16",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -734,7 +789,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = "BITDEPTH=16";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
