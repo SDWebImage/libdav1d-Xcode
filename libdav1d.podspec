@@ -39,5 +39,9 @@ dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed and
     'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libdav1d/dav1d ${PODS_TARGET_SRCROOT}/dav1d ${PODS_ROOT}/libdav1d/dav1d/include ${PODS_TARGET_SRCROOT}/dav1d/include ${PODS_ROOT}/libdav1d/generate ${PODS_TARGET_SRCROOT}/generate',
     'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) BITDEPTH=8'
   }
+  # hack to fix the header include issue from CocoaPods
+  s.prepare_command = <<-CMD
+                      sed -i.bak 's/common.h/dav1d\\/common.h/g' './dav1d/src/film_grain_tmpl.c'
+                      CMD
   s.preserve_paths = 'dav1d', 'generate'
 end
