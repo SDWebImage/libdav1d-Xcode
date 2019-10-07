@@ -1,0 +1,3 @@
+[submodule "dav1d"]
+	path = dav1d
+	url = https://github.com/videolan/dav1d.git
