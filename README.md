@@ -14,7 +14,7 @@ This repo also including the CocoaPods's spec file to use libdav1d.
 ## Requirements
 
 + iOS 8
-+ macOS 10.6
++ macOS 10.7
 + tvOS 9.0
 + watchOS 2.0
 
