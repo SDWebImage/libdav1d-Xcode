@@ -39,6 +39,3 @@
 #ifndef BITDEPTH
 #define BITDEPTH 8
 #endif
-
-// Fix for include issue of `itx_1d.c`, because they use `#include "itx_1d.c"` to treat it as header files
-#include "common/bitdepth.h"

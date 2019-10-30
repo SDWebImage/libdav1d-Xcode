@@ -58,7 +58,6 @@
 		32189FB6234B8F2000F7B8A3 /* tables.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189EF3234B8F2000F7B8A3 /* tables.h */; };
 		32189FB7234B8F2000F7B8A3 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189EF4234B8F2000F7B8A3 /* thread.h */; };
 		32189FB9234B8F2000F7B8A3 /* picture.c in Sources */ = {isa = PBXBuildFile; fileRef = 32189EF6234B8F2000F7B8A3 /* picture.c */; };
-		32189FBA234B8F2000F7B8A3 /* itx_1d.c in Sources */ = {isa = PBXBuildFile; fileRef = 32189EF7234B8F2000F7B8A3 /* itx_1d.c */; };
 		32189FBB234B8F2000F7B8A3 /* lr_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189EF8234B8F2000F7B8A3 /* lr_apply.h */; };
 		32189FBC234B8F2000F7B8A3 /* itx_tmpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 32189EF9234B8F2000F7B8A3 /* itx_tmpl.c */; };
 		32189FBD234B8F2000F7B8A3 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189EFA234B8F2000F7B8A3 /* log.h */; };
@@ -199,7 +198,6 @@
 		32189EF3234B8F2000F7B8A3 /* tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
 		32189EF4234B8F2000F7B8A3 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
 		32189EF6234B8F2000F7B8A3 /* picture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = picture.c; sourceTree = "<group>"; };
-		32189EF7234B8F2000F7B8A3 /* itx_1d.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = itx_1d.c; sourceTree = "<group>"; };
 		32189EF8234B8F2000F7B8A3 /* lr_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lr_apply.h; sourceTree = "<group>"; };
 		32189EF9234B8F2000F7B8A3 /* itx_tmpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = itx_tmpl.c; sourceTree = "<group>"; };
 		32189EFA234B8F2000F7B8A3 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
@@ -363,7 +361,6 @@
 				32189EF3234B8F2000F7B8A3 /* tables.h */,
 				32189EF4234B8F2000F7B8A3 /* thread.h */,
 				32189EF6234B8F2000F7B8A3 /* picture.c */,
-				32189EF7234B8F2000F7B8A3 /* itx_1d.c */,
 				32189EF8234B8F2000F7B8A3 /* lr_apply.h */,
 				32189EF9234B8F2000F7B8A3 /* itx_tmpl.c */,
 				32189EFA234B8F2000F7B8A3 /* log.h */,
@@ -637,7 +634,6 @@
 				32F1767B234BD1F000F74DE4 /* cdef_tmpl_16.c in Sources */,
 				32189FF8234B8F2000F7B8A3 /* thread_task.c in Sources */,
 				32189FD9234B8F2000F7B8A3 /* cdef_apply_tmpl.c in Sources */,
-				32189FBA234B8F2000F7B8A3 /* itx_1d.c in Sources */,
 				32F1767F234BD1F000F74DE4 /* recon_tmpl_16.c in Sources */,
 				32189FA9234B8F2000F7B8A3 /* cdf.c in Sources */,
 				32F17678234BD1F000F74DE4 /* loopfilter_tmpl_16.c in Sources */,
