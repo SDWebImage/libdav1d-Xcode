@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'libdav1d'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = 'dav1d is an AV1 decoder :)'
 
 # This description is used to generate tags and improve search results.
