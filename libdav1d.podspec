@@ -31,9 +31,9 @@ dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed and
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'dav1d/src/**/*.{h,c}', 'dav1d/include/dav1d/*.h', 'dav1d/include/common/*.h', 'generate/*.h', 'generate/tmpl_16/*.c'
+  s.source_files = 'dav1d/src/**/*.{h,c}', 'dav1d/include/**/*.h', 'generate/*.h', 'generate/tmpl_16/*.c'
   s.public_header_files = 'dav1d/include/dav1d/*.h', 'generate/version.h'
-  s.exclude_files = 'dav1d/src/arm', 'dav1d/src/ppc', 'dav1d/src/win32', 'dav1d/src/x86', 'dav1d/src/ext'
+  s.exclude_files = 'dav1d/src/arm', 'dav1d/src/ppc', 'dav1d/src/win32', 'dav1d/src/x86', 'dav1d/src/ext', 'dav1d/include/compat'
   
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libdav1d/dav1d ${PODS_TARGET_SRCROOT}/dav1d ${PODS_ROOT}/libdav1d/dav1d/include ${PODS_TARGET_SRCROOT}/dav1d/include ${PODS_ROOT}/libdav1d/generate ${PODS_TARGET_SRCROOT}/generate'

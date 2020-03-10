@@ -1,0 +1,1 @@
+../../generate/vcs_version.h
