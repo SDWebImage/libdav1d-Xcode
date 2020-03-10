@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/libdav1d.svg?style=flat)](http://cocoapods.org/pods/libdav1d)
 [![Platform](https://img.shields.io/cocoapods/p/libdav1d.svg?style=flat)](http://cocoapods.org/pods/libdav1d)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/SDWebImage/libdav1d-Xcode)
+[![SwiftPM compatible](https://img.shields.io/badge/SwiftPM-compatible-brightgreen.svg?style=flat)](https://swift.org/package-manager/)
 
 A wrapper for [libdav1d](https://github.com/videolan/dav1d) + Xcode project.
 This enables Carthage support
@@ -40,6 +41,18 @@ libdav1d is available through [CocoaPods](https://github.com/CocoaPods/CocoaPods
 
 ```
 pod 'libdav1d'
+```
+
+#### Swift Package Manager (Xcode 11+)
+
+libdav1d is available through [Swift Package Manager](https://swift.org/package-manager).
+
+```swift
+let package = Package(
+    dependencies: [
+        .package(url: "https://github.com/SDWebImage/libdav1d-Xcode.git", from: "0.6")
+    ]
+)
 ```
 
 ## Usage
