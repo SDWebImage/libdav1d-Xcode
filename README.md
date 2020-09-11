@@ -15,7 +15,7 @@ This repo also including the CocoaPods's spec file to use libdav1d.
 ## Requirements
 
 + iOS 8
-+ macOS 10.7
++ macOS 10.10
 + tvOS 9.0
 + watchOS 2.0
 
@@ -50,7 +50,7 @@ libdav1d is available through [Swift Package Manager](https://swift.org/package-
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/libdav1d-Xcode.git", from: "0.6")
+        .package(url: "https://github.com/SDWebImage/libdav1d-Xcode.git", from: "0.7")
     ]
 )
 ```
