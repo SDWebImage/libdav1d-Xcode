@@ -27,7 +27,7 @@ dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed and
   s.source           = { :git => 'https://github.com/SDWebImage/libdav1d-Xcode.git', :tag => s.version.to_s, :submodules => true }
 
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.7'
+  s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
