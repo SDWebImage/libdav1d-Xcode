@@ -31,8 +31,8 @@ dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed and
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'dav1d/src/**/*.{h,c}', 'dav1d/include/**/*.h', 'generate/*.h', 'generate/tmpl_16/*.c'
-  s.public_header_files = 'dav1d/include/dav1d/*.h', 'generate/version.h'
+  s.source_files = 'dav1d/src/**/*.{h,c}', 'dav1d/include/**/*.h', 'generate/config.h', 'generate/vcs_version.h', 'generate/tmpl_16/*.c'
+  s.public_header_files = 'dav1d/include/dav1d/*.h'
   s.exclude_files = 'dav1d/src/arm', 'dav1d/src/ppc', 'dav1d/src/win32', 'dav1d/src/x86', 'dav1d/src/ext', 'dav1d/include/compat'
   
   s.pod_target_xcconfig = {
@@ -40,7 +40,10 @@ dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed and
   }
   # hack to fix the header include issue from CocoaPods
   s.prepare_command = <<-CMD
-                      sed -i '' 's/\\"common.h\\"/\\"dav1d\\/common.h\\"/g' './dav1d/src/fg_apply_tmpl.c'
+                      cp './dav1d/include/dav1d/version.h.in' './dav1d/include/dav1d/version.h'
+                      sed -i '' 's/\\@DAV1D_API_VERSION_MAJOR@/4/g' './dav1d/include/dav1d/version.h'
+                      sed -i '' 's/\\@DAV1D_API_VERSION_MINOR@/0/g' './dav1d/include/dav1d/version.h'
+                      sed -i '' 's/\\@DAV1D_API_VERSION_PATCH@/2/g' './dav1d/include/dav1d/version.h'
                       CMD
   s.preserve_paths = 'dav1d', 'generate'
 end
