@@ -38,8 +38,9 @@ dav1d is a new AV1 cross-platform decoder, open-source, and focused on speed and
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_ROOT}/libdav1d/dav1d ${PODS_TARGET_SRCROOT}/dav1d ${PODS_ROOT}/libdav1d/dav1d/include ${PODS_TARGET_SRCROOT}/dav1d/include ${PODS_ROOT}/libdav1d/generate ${PODS_TARGET_SRCROOT}/generate'
   }
-  # hack to fix the header include issue from CocoaPods
+  # hack to fix the header include issue from CocoaPods. This effect the static library target form, but not multiple projects
   s.prepare_command = <<-CMD
+                      sed -i '' 's/\\"common.h\\"/\\"dav1d\\/common.h\\"/g' './dav1d/src/fg_apply_tmpl.c'
                       cp './dav1d/include/dav1d/version.h.in' './dav1d/include/dav1d/version.h'
                       sed -i '' 's/\\@DAV1D_API_VERSION_MAJOR@/4/g' './dav1d/include/dav1d/version.h'
                       sed -i '' 's/\\@DAV1D_API_VERSION_MINOR@/0/g' './dav1d/include/dav1d/version.h'
