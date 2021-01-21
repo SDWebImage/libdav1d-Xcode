@@ -12,7 +12,6 @@
 		32189F5E234B8F2000F7B8A3 /* attributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E8F234B8F2000F7B8A3 /* attributes.h */; };
 		32189F5F234B8F2000F7B8A3 /* validate.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E90234B8F2000F7B8A3 /* validate.h */; };
 		32189F60234B8F2000F7B8A3 /* intops.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E91234B8F2000F7B8A3 /* intops.h */; };
-		32189F61234B8F2000F7B8A3 /* mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E92234B8F2000F7B8A3 /* mem.h */; };
 		32189F63234B8F2000F7B8A3 /* picture.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E95234B8F2000F7B8A3 /* picture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32189F65234B8F2000F7B8A3 /* data.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E97234B8F2000F7B8A3 /* data.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32189F66234B8F2000F7B8A3 /* headers.h in Headers */ = {isa = PBXBuildFile; fileRef = 32189E98234B8F2000F7B8A3 /* headers.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -94,6 +93,8 @@
 		3272FE642369E3C5001A1268 /* fg_apply.h in Headers */ = {isa = PBXBuildFile; fileRef = 3272FE622369E3C5001A1268 /* fg_apply.h */; };
 		3272FE652369E3C5001A1268 /* fg_apply_tmpl.c in Sources */ = {isa = PBXBuildFile; fileRef = 3272FE632369E3C5001A1268 /* fg_apply_tmpl.c */; };
 		3272FE672369E3E5001A1268 /* fg_apply_tmpl_16.c in Sources */ = {isa = PBXBuildFile; fileRef = 3272FE662369E3E5001A1268 /* fg_apply_tmpl_16.c */; };
+		327E38C025B984D700E9AF3C /* mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 327E38BE25B984D700E9AF3C /* mem.c */; };
+		327E38C125B984D700E9AF3C /* mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 327E38BF25B984D700E9AF3C /* mem.h */; };
 		328B167A234B932300AA4441 /* vcs_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 328B1679234B932300AA4441 /* vcs_version.h */; };
 		328B1682234B97E100AA4441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328B1681234B97E100AA4441 /* main.m */; };
 		328B1687234B97FA00AA4441 /* libdav1d.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 324E7C0B230D4831007D24F8 /* libdav1d.framework */; };
@@ -154,7 +155,6 @@
 		32189E8F234B8F2000F7B8A3 /* attributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attributes.h; sourceTree = "<group>"; };
 		32189E90234B8F2000F7B8A3 /* validate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validate.h; sourceTree = "<group>"; };
 		32189E91234B8F2000F7B8A3 /* intops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = intops.h; sourceTree = "<group>"; };
-		32189E92234B8F2000F7B8A3 /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
 		32189E95234B8F2000F7B8A3 /* picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = picture.h; sourceTree = "<group>"; };
 		32189E97234B8F2000F7B8A3 /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
 		32189E98234B8F2000F7B8A3 /* headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
@@ -237,6 +237,8 @@
 		3272FE622369E3C5001A1268 /* fg_apply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fg_apply.h; sourceTree = "<group>"; };
 		3272FE632369E3C5001A1268 /* fg_apply_tmpl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fg_apply_tmpl.c; sourceTree = "<group>"; };
 		3272FE662369E3E5001A1268 /* fg_apply_tmpl_16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fg_apply_tmpl_16.c; sourceTree = "<group>"; };
+		327E38BE25B984D700E9AF3C /* mem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mem.c; sourceTree = "<group>"; };
+		327E38BF25B984D700E9AF3C /* mem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mem.h; sourceTree = "<group>"; };
 		328B1679234B932300AA4441 /* vcs_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vcs_version.h; sourceTree = "<group>"; };
 		328B167F234B97E100AA4441 /* libdav1dExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = libdav1dExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		328B1681234B97E100AA4441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -303,7 +305,6 @@
 				32189E8F234B8F2000F7B8A3 /* attributes.h */,
 				32189E90234B8F2000F7B8A3 /* validate.h */,
 				32189E91234B8F2000F7B8A3 /* intops.h */,
-				32189E92234B8F2000F7B8A3 /* mem.h */,
 			);
 			path = common;
 			sourceTree = "<group>";
@@ -326,6 +327,8 @@
 				3272FE632369E3C5001A1268 /* fg_apply_tmpl.c */,
 				3272FE622369E3C5001A1268 /* fg_apply.h */,
 				32189EC5234B8F2000F7B8A3 /* cdef_tmpl.c */,
+				327E38BE25B984D700E9AF3C /* mem.c */,
+				327E38BF25B984D700E9AF3C /* mem.h */,
 				32189EC6234B8F2000F7B8A3 /* log.c */,
 				32189EC7234B8F2000F7B8A3 /* picture.h */,
 				32189EC8234B8F2000F7B8A3 /* env.h */,
@@ -507,6 +510,7 @@
 				32189F96234B8F2000F7B8A3 /* qm.h in Headers */,
 				32189F8F234B8F2000F7B8A3 /* obu.h in Headers */,
 				32189FF5234B8F2000F7B8A3 /* film_grain.h in Headers */,
+				327E38C125B984D700E9AF3C /* mem.h in Headers */,
 				32189FB6234B8F2000F7B8A3 /* tables.h in Headers */,
 				32189FFC234B8F2000F7B8A3 /* ipred_prepare.h in Headers */,
 				32189F60234B8F2000F7B8A3 /* intops.h in Headers */,
@@ -529,7 +533,6 @@
 				32189FBB234B8F2000F7B8A3 /* lr_apply.h in Headers */,
 				32189F63234B8F2000F7B8A3 /* picture.h in Headers */,
 				32189FD6234B8F2000F7B8A3 /* cpu.h in Headers */,
-				32189F61234B8F2000F7B8A3 /* mem.h in Headers */,
 				32189FF9234B8F2000F7B8A3 /* ref.h in Headers */,
 				32B5C42F230D524000395181 /* libdav1d.h in Headers */,
 				32189FFB234B8F2000F7B8A3 /* ctx.h in Headers */,
@@ -677,6 +680,7 @@
 				32189FAD234B8F2000F7B8A3 /* decode.c in Sources */,
 				32189FAC234B8F2000F7B8A3 /* scan.c in Sources */,
 				32189FB4234B8F2000F7B8A3 /* warpmv.c in Sources */,
+				327E38C025B984D700E9AF3C /* mem.c in Sources */,
 				329270BB250B1FF4007E9F37 /* refmvs.c in Sources */,
 				32189FAE234B8F2000F7B8A3 /* lf_mask.c in Sources */,
 				32F1767D234BD1F000F74DE4 /* lr_apply_tmpl_16.c in Sources */,
@@ -752,7 +756,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -812,7 +816,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
